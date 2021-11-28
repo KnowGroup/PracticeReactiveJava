@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+}
+
+group 'org.know.group'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.13.2'
+    implementation 'org.immutables:generator:2.7.1'
+    implementation 'org.immutables:value:2.7.1'
+    implementation 'org.immutables:gson:2.7.1'
+    implementation 'org.immutables:mongo:2.7.1'
+    implementation 'com.github.fakemongo:fongo:2.1.1'
+    implementation 'io.reactivex.rxjava2:rxjava:2.1.4'
+    implementation 'org.slf4j:slf4j-api:1.7.32'
+    implementation 'org.slf4j:slf4j-simple:1.7.32'
+}
+
+test {
+    useJUnitPlatform()
+}
