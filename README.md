@@ -23,3 +23,6 @@ The project has least data model complexity and has precise code that is require
 
 *No separate MongoDB setup is required, since Fongo has been used as in-memory mongodb.<br />
 *Additional Immutable libraries have been used to build immutable type-safe, null-safe and thread-safe objects. <br />
+
+# Setup
+<B> ReactiveOperationPractice.java </B> implement all //TODO scenarios. Test using <b> ReactiveOperationPracticeTest.java </b> <br />
